@@ -8,7 +8,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.EditText
-import androidx.room.CoroutinesRoom
 import com.jkdesigns.almacenamiento_room.db.PeliculaDB
 import com.jkdesigns.almacenamiento_room.model.Pelicula
 import kotlinx.coroutines.CoroutineScope
