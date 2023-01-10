@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormularioPeliculasFragment"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+  <EditText
+      android:id="@+id/edtTitulo"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="text"
+      android:hint="Titulo"/>
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/edtProtagonista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Protagonista"/>
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/edtDuracion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Duracion"/>
+  <Button
+      android:id="@+id/btnAdicionar"
+      android:layout_marginTop="5dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Adicionar"/>
+  <Button
+      android:id="@+id/btnCancelar"
+      android:layout_marginTop="5dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Cancelar"/>
+
+</LinearLayout>
